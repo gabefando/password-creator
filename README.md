@@ -7,7 +7,7 @@ A password generator. Generates passwords according to certain options selected 
 * Special characters
 
 ## Screnshot
-
-
+![screenshot](./Screenshot.jpeg)
 
 ## Link
+https://gabefando.github.io/password-creator/
