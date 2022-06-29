@@ -36,6 +36,7 @@ function generatePassword(length) {
       result += special.charAt(Math.floor(Math.random() * special.length));
     } else {
       result += "You must pick atleast one character type!"
+      break;
     }
   }
   return result;
