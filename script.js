@@ -44,24 +44,7 @@ function generatePassword(length) {
   }
 
   while (result.length < length) {
-<<<<<<< HEAD
-    const collection = Math.floor(Math.random() * 4);
-
-    if (collection === 0 && upperCase) {
-      result += upper.charAt(Math.floor(Math.random() * upper.length));
-    } else if (collection === 1 && lowerCase) {
-      result += lower.charAt(Math.floor(Math.random() * lower.length));
-    } else if (collection === 2 && numerics) {
-      result += number.charAt(Math.floor(Math.random() * number.length));
-    } else if (collection === 3 && specialCase) {
-      result += special.charAt(Math.floor(Math.random() * special.length));
-    } else {
-      result += "You must pick atleast one character type!"
-      break;
-    }
-=======
     result += possibleCharacters.charAt(Math.floor(Math.random() * possibleCharacters.length));
->>>>>>> 7dc947978cfa84ab012950e45a154ac7e47ff1a8
   }
 
   return result;
